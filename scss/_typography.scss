@@ -1,0 +1,18 @@
+p, h1, h2, h3, h4, h5, h6, a, span {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: $primary-text;
+  }
+h1 {
+    font-size: xx-large;
+    color: $primary-heading;
+}
+
+.logo-text {
+  color: $primary-heading;
+  display: block;
+  float: left;
+  font-size: 2em;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-weight: 700;
+}

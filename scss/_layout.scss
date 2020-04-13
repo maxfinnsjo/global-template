@@ -1,0 +1,41 @@
+/* header */
+
+.header {
+    background-color: $secondary-background;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    position: static;
+    width: 100%;
+    z-index: 3;
+    top: 0;
+    left: 0;
+  }
+  
+  .header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: $secondary-background;
+    width: 100%;
+  }
+  
+  .header li a {
+    display: block;
+    padding: 20px 0;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .header li a:hover,
+  .header .menu-btn:hover {
+    background-color: $secondary-accent;
+    color: $secondary-text;
+  }
+
+  //Main section
+
+  .main-section {
+    background-color: $primary-background;
+    padding: 10px;
+  }
